@@ -1,0 +1,65 @@
+/* 공통 스타일 */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* 메인 페이지 상단 배너 */
+header.main-header {
+    background-color: #d8b4fe; /* 연보라색 */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* 3D 작업물 페이지 스타일 */
+body.3d-artworks-page {
+    background-color: #ffe6eb; /* 연한 분홍색 */
+}
+
+header.3d-artworks-header {
+    background-color: #ff99ac; /* 연분홍색 */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* 그림 및 일러스트 페이지 스타일 */
+body.illustrations-page {
+    background-color: #e9ffe6; /* 연한 연두색 */
+}
+
+header.illustrations-header {
+    background-color: #a4fba6; /* 연두색 */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* 이모티콘 페이지 스타일 */
+body.emojis-page {
+    background-color: #fff9e6; /* 연한 노랑색 */
+}
+
+header.emojis-header {
+    background-color: #fff0b3; /* 연노랑색 */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* 핸드메이드 제품 페이지 스타일 */
+body.handmade-page {
+    background-color: #e6f7ff; /* 연한 하늘색 */
+}
+
+header.handmade-header {
+    background-color: #99d6ff; /* 하늘색 */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
