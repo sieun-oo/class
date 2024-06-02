@@ -1,15 +1,25 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../fonts/MyFont.ttf') format('truetype');
+}
+
 /* 공통 스타일 */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Jua', Arial, sans-serif;
 }
 
 /* 메인 페이지 상단 배너 */
 header.main-header {
     background-color: #d8b4fe; /* 연보라색 */
     color: white;
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
     font-size: 1.5rem;
+}
+
+/* 프로필 사진 스타일 */
+.profile-pic {
+    border-radius: 10px; /* 모서리가 둥근 직사각형 */
 }
 
 /* 3D 작업물 페이지 스타일 */
@@ -20,7 +30,7 @@ body.illustrations-page {
 header.illustrations-header {
     background-color: #ffb9f4; /* 분홍색 */
     color: rgb(245, 91, 204);
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
     font-size: 1.5rem;
 }
@@ -33,7 +43,7 @@ body.illustrations-page {
 header.illustrations-header {
     background-color: #ccffb9; /* 연두색 */
     color: rgb(54, 119, 61);
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
     font-size: 1.5rem;
 }
@@ -46,7 +56,7 @@ body.emojis-page {
 header.emojis-header {
     background-color: #fff0b3; /* 연노랑색 */
     color: rgb(255, 140, 69);
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
     font-size: 1.5rem;
 }
@@ -59,7 +69,7 @@ body.handmade-page {
 header.handmade-header {
     background-color: #99d6ff; /* 하늘색 */
     color: rgb(42, 116, 255);
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
     font-size: 1.5rem;
 }
