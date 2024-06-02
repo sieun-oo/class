@@ -13,13 +13,13 @@ header.main-header {
 }
 
 /* 3D 작업물 페이지 스타일 */
-body.3d-artworks-page {
-    background-color: #ffe6eb; /* 연한 분홍색 */
+body.illustrations-page {
+    background-color: #ffe6f7; /* 연한 분홍색 */
 }
 
-header.3d-artworks-header {
-    background-color: #ff99ac; /* 연분홍색 */
-    color: white;
+header.illustrations-header {
+    background-color: #ffb9f4; /* 분홍색 */
+    color: rgb(245, 91, 204);
     padding: 20px 0;
     text-align: center;
     font-size: 1.5rem;
@@ -27,12 +27,12 @@ header.3d-artworks-header {
 
 /* 그림 및 일러스트 페이지 스타일 */
 body.illustrations-page {
-    background-color: #e9ffe6; /* 연한 연두색 */
+    background-color: #f3ffe6; /* 연한 연두색 */
 }
 
 header.illustrations-header {
-    background-color: #a4fba6; /* 연두색 */
-    color: white;
+    background-color: #ccffb9; /* 연두색 */
+    color: rgb(54, 119, 61);
     padding: 20px 0;
     text-align: center;
     font-size: 1.5rem;
@@ -45,7 +45,7 @@ body.emojis-page {
 
 header.emojis-header {
     background-color: #fff0b3; /* 연노랑색 */
-    color: white;
+    color: rgb(255, 140, 69);
     padding: 20px 0;
     text-align: center;
     font-size: 1.5rem;
@@ -58,7 +58,7 @@ body.handmade-page {
 
 header.handmade-header {
     background-color: #99d6ff; /* 하늘색 */
-    color: white;
+    color: rgb(42, 116, 255);
     padding: 20px 0;
     text-align: center;
     font-size: 1.5rem;
